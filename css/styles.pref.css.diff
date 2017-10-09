@@ -1,0 +1,16 @@
+Index: css/styles.pref.css
+===================================================================
+--- css/styles.pref.css
++++ css/styles.pref.css
+@@ -291,9 +291,10 @@
+ 	background-color: #f60;
+ 	border-radius: 4px;
+ 	border: none;
+ 	border-top: 3px solid #f40;
++	-webkit-transition: .25s ease-in-out;
++	        transition: .25s ease-in-out;
+-	transition: .25s ease-in-out;
+ }
+ 
+ .cta:hover, .cta:focus, .cta:active {
+ 	background-color: #f40;

@@ -1,0 +1,70 @@
+@media screen and (min-width: 568px){
+	.picture, .step {
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.picture {
+		width: 32%;
+		margin-right: 2%;
+		margin-bottom: 0;
+	}
+
+	.picture:last-of-type {
+		margin-right: 0;
+	}
+
+	.vignette {
+		border: 5px solid white;
+	}
+
+	.step:not(:last-of-type):after {
+		content: "\25b6";
+		display: inline-block;
+		padding: 0 1em;
+	}
+}
+
+@media screen and (min-width: 640px) {
+	.group, .private {
+		width: 48%;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.group {
+		margin-right: 4%;
+	}
+}
+
+@media screen and (min-width: 715px) {
+	.videowrapper {
+		max-width: 800px;
+		margin: 0 auto;
+	}
+
+	.video, .comment {
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.video {
+		width: 66%;
+		padding-bottom: 34%;
+		padding-top: 25px;
+		margin-right: 1%;
+	}
+
+	.comment {
+		width: 33%;
+		padding: 1% .5% 0 0;
+		margin-bottom: 0;
+	}
+
+}
+
+@media screen and (min-width: 1501px) {
+	header {
+		background: no-repeat 0 90%/cover url(../img/banner.jpg);
+	}
+}

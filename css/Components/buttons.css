@@ -1,0 +1,17 @@
+.cta {
+	color: #fff;
+	font-weight: 400;
+	display: inline-block;
+	padding: .5em 1em;
+	line-height: 1.25em;
+	margin-bottom: 2em;
+	background-color: #f60;
+	border-radius: 4px;
+	border: none;
+	border-top: 3px solid #f40;
+	transition: .25s ease-in-out;
+}
+
+.cta:hover, .cta:focus, .cta:active {
+	background-color: #f40;
+}
